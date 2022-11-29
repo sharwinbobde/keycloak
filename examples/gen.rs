@@ -329,7 +329,7 @@ fn write_types(enums: &[EnumType], structs: &[Rc<StructType>]) {
             println!("    pub {}: {},", field.field_name, field_type);
         }
 
-        println!("}}");
+        println!("}}\n");
     }
 }
 
